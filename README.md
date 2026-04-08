@@ -9,8 +9,7 @@
 *   **트리거 워드**: `lineart_style` (이 단어를 프롬프트에 포함하여 학습된 스타일을 활성화합니다.)
 
 ## LoRA 학습 파라미터
-
-이 LoRA 모델은 다음 주요 파라미터로 학습되었습니다.
+3000장의 데이터셋을 이용하여 LoRA 모델은 다음 주요 파라미터로 학습되었습니다.(A100 - 53분)
 
 *   **해상도 (`resolution`)**: `512`x`512` 픽셀
 *   **최대 학습 스텝 (`max_train_steps`)**: `5000` 스텝
@@ -29,7 +28,3 @@
 
 *   **리포지토리 ID**: `whitebearhands/lineart-lora`
 *   **링크**: [https://huggingface.co/whitebearhands/lineart-lora](https://huggingface.co/whitebearhands/lineart-lora)
-
-## 기여자
-
-[이 프로젝트에 기여한 사람들의 이름을 나열하세요.]
